@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 :root {
-    --cor0: #ff3535;
-    --cor1: #c51111;
-    --cor2: #610000;
+    --cor0: #1f89ec;
+    --cor1: #2188cc;
+    --cor2: #0d9ec2;
     --cor3: #000000;
     --cor4: #c2c2c2;
     --cor5: #ffffff;
@@ -28,6 +28,7 @@ header {
 }
 header > h1 {
     color: var(--cor5);
+    font-size: 1.5em;
 }
 
 header > p {
@@ -53,6 +54,11 @@ main > article > h2 {
     color: var(--cor1);
     font-size: 1.3em;
     font-weight: normal;
+}
+
+main strong {
+    color: var(--cor0);
+    font-weight: bold;
 }
 
 main > p {
